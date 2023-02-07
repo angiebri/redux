@@ -1,8 +1,6 @@
 import './styles.css'
 
-import './styles.css'
-
-const coonter = document.getElementById('counter')
+const counter = document.getElementById('counter')
 const addBtn = document.getElementById('add')
 const subBtn = document.getElementById('sub')
 
@@ -17,7 +15,7 @@ addBtn.addEventListener('click', () => {
     render()
 })
 
-addBtn.addEventListener('click', () => {
+subBtn.addEventListener('click', () => {
     state--
     render()
 })
